@@ -20,8 +20,41 @@
     <title>Document</title>
 </head>
 <body>
-<?php include "includes/navbar.php"; ?>
 <?php include "includes/banner.php"; ?>
+<?php include "includes/navbar.php"; ?>
+<section class="content">
+    <div class="box">
+        <div class="header-box">
+            <h1 id="about" class="text-uppercase"><i class="fas fa-boxes-stacked"></i> My Products</h1>
+        </div>
+        <div class="header-box">
+            <h1 id="about" class="text-uppercase"><i class="fa-solid fa-user-tie"></i> about me</h1>
+        </div>
+        <h1>Hey there!</h1>
+        <h3>Nice to meet you!</h3>
+    </div>
+    <div class="header-box">
+        <h1 id="about" class="text-uppercase"><i class="fas fa-code-merge"></i> My Skills</h1>
+    </div>
+    <div class="container">
+        <div class="row">
+            <div class="col-sm-12 col-lg-6">
+                <h1 class="text-center text-uppercase"><i class="fas fa-earth"></i> Language Skills</h1>
+
+                <a href="https://github.com/Tjorven-Liebe" target="_blank"><img
+                        src="https://raw.githubusercontent.com/Tjorven-Liebe/github-stats/master/generated/languages.svg#gh-catppuccin-machiato"
+                        class="skill-table" alt="github-stats"></a>
+            </div>
+            <div class="col-sm-12 col-lg-6">
+                <h1 class="text-center text-uppercase"><i class="fa-brands fa-github"></i> Github Skills</h1>
+                <a href="https://github.com/Tjorven-Liebe" target="_blank"><img
+                        src="https://raw.githubusercontent.com/Tjorven-Liebe/github-stats/master/generated/overview.svg#gh-catppuccin-machiato"
+                        class="skill-table" alt="github-stats"></a>
+            </div>
+        </div>
+    </div>
+    </div>
+</section>
 <?php include "includes/footer.php"; ?>
 </body>
 </html>

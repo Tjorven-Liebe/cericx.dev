@@ -36,6 +36,15 @@ i {
     color: var(--text) !important;
 }
 
+::-webkit-scrollbar {
+    width: 5px;
+    background: var(--mantle);
+}
+
+::-webkit-scrollbar-thumb {
+    background: var(--surface2);
+}
+
 body {
     background: var(--crust);
     overflow-x: hidden;
@@ -43,7 +52,7 @@ body {
 
 .navbar {
     background: var(--mantle);
-    border-bottom: 1px solid var(--surface0);
+    border-top: 1px solid var(--surface0);
 }
 
 /**
@@ -61,6 +70,47 @@ Banner
     height: 400px;
     opacity: .6;
     filter: blur(5px);
+}
+
+/**
+Content Section
+ */
+
+.header-box:nth-child(1) {
+    margin: 0 0 15px;
+}
+
+.header-box {
+    margin: 15px 0;
+}
+
+.header-box {
+    width: 100%;
+    text-align: center;
+    padding: 5px;
+    background: var(--mantle);
+    border-top: 1px solid var(--surface0);
+    border-bottom: 1px solid var(--surface0);
+}
+
+.header-box.vertical {
+    width: 6%;
+    word-break: break-all;
+    border-right: 1px solid var(--surface0);
+}
+
+.box > *:not(.header-box, .container-fluid, .container) {
+    margin: 0 20%
+}
+
+.box {
+    text-align: justify;
+}
+
+.skill-table {
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
 }
 
 /**
