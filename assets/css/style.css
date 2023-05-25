@@ -1,0 +1,83 @@
+:root {
+    --rosewater: #f4dbd6;
+    --flamingo: #f0c6c6;
+    --pink: #f5bde6;
+    --mauve: #c6a0f6;
+    --red: #ed8796;
+    --maroon: #ee99a0;
+    --peach: #f5a97f;
+    --yellow: #eed49f;
+    --green: #a6da95;
+    --teal: #8bd5ca;
+    --sky: #91d7e3;
+    --saphire: #7dc4e4;
+    --blue: #8aadf4;
+    --lavender: #b7bdf8;
+    --text: #cad3f5;
+    --subtext1: #b8c0e0;
+    --subtext0: #a5adcb;
+    --overlay2: #939ab7;
+    ---overlay1: #8087a2;
+    --overlay0: #6e738d;
+    --surface2: #5b6078;
+    --surface1: #494d64;
+    --surface0: #363a4f;
+    --base: #24273a;
+    --mantle: #1e2030;
+    --crust: #181926;
+}
+
+i {
+    fill: var(--text) !important;
+}
+
+* {
+    border-color: var(--surface0) !important;
+    color: var(--text) !important;
+}
+
+body {
+    background: var(--crust);
+    overflow-x: hidden;
+}
+
+.navbar {
+    background: var(--mantle);
+    border-bottom: 1px solid var(--surface0);
+}
+
+/**
+Banner
+ */
+.banner {
+    overflow: hidden;
+    height: 400px;
+    width: 100%;
+}
+
+.banner .image {
+    background-position: center;
+    object-fit: cover;
+    height: 400px;
+    opacity: .6;
+    filter: blur(5px);
+}
+
+/**
+Footer
+ */
+
+.footer .container {
+    padding: 30px;
+}
+
+.footer {
+    background: var(--mantle);
+    border-top: 1px solid var(--surface0);
+}
+
+.footer .alpha {
+    padding: 10px;
+    opacity: 0.7;
+    border-top: 1px solid var(--surface0);
+}
